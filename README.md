@@ -1,5 +1,8 @@
 # Edit Moudle #
  Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
+ <p align="left">
+<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch2.PNG", width="720">
+</p>
  
  7X7 Convol 네트워크를 3X3 3개 + Concat + Eltwise-Sum 으로 변경되어 있습니다. -Please Check C3 (setLayers.py 193Line) 
  
