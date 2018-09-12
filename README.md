@@ -1,9 +1,13 @@
 # Edit Moudle #
-Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
-7X7 Convol 네트워크를 3X3 3개 + Concat + Eltwise-Sum 으로변경되어 있습니다. -Please Check C3 (setLayers.py 193Line) 
-이에 맞춰 prototxt 파일도 Multi Scale Mudle에 맞추어 설정되어 있습니다.
-다르게 사용하기 위해선 setLayers.py코드에서 getBash() 부분을 수정해 주세요.
-또한 caffe_path, base_folder, dataFolder, source의 경로를 자신의 설정에 맞게 설정 해주세요.
+ Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
+ 
+ 7X7 Convol 네트워크를 3X3 3개 + Concat + Eltwise-Sum 으로변경되어 있습니다. -Please Check C3 (setLayers.py 193Line) 
+ 
+ 이에 맞춰 prototxt 파일도 Multi Scale Mudle에 맞추어 설정되어 있습니다.
+
+ 다르게 사용하기 위해선 setLayers.py코드에서 getBash() 부분을 수정해 주세요.
+
+ 또한 caffe_path, base_folder, dataFolder, source의 경로를 자신의 설정에 맞게 설정 해주세요.
 
 
 # Realtime Multi-Person Pose Estimation
