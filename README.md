@@ -1,6 +1,6 @@
-# Edit Moudle #
+# Multi Scale Mudle #
  Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
- <p align="left">
+<p align="left">
 <img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/arch3.PNG", width="720">
 </p>
  
@@ -8,6 +8,7 @@
  
  이에 맞춰 prototxt 파일도 Multi Scale Mudle에 맞추어 설정되어 있습니다.
 
+ # Edit #
  다르게 사용하기 위해선 setLayers.py코드에서 getBash() 부분을 수정해 주세요.
 
  또한 caffe_path, base_folder, dataFolder, source의 경로를 자신의 설정에 맞게 설정 해주세요.
