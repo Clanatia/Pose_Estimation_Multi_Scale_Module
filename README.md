@@ -1,12 +1,12 @@
-# Multi Scale Mudle #
- Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
+# Multi Scale Module #
+ Multi Scale Module에 맞게 설정이 되어있는 코드입니다.
 <p align="left">
-<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/arch3.PNG", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Module/blob/master/readme/arch3.PNG", width="720">
 </p>
  
  7X7 Convol 네트워크를 3X3 3개 + Concat + Eltwise-Sum 으로 변경되어 있습니다. -Please Check C3 (setLayers.py 193Line) 
  
- 이에 맞춰 prototxt 파일도 Multi Scale Mudle에 맞추어 설정되어 있습니다.
+ 이에 맞춰 prototxt 파일도 Multi Scale Module에 맞추어 설정되어 있습니다.
 
  # Edit #
  다르게 사용하기 위해선 setLayers.py코드에서 getBash() 부분을 수정해 주세요.
@@ -25,7 +25,7 @@ Watch our video result in [YouTube](https://www.youtube.com/watch?v=pW6nZXeWlGM&
 We present a bottom-up approach for multi-person pose estimation, without using any person detector. For more details, refer to our [CVPR'17 paper](https://arxiv.org/abs/1611.08050) or our [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
 <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Module/blob/master/readme/pose.gif", width="720">
 </p>
 
 This project is licensed under the terms of the [license](LICENSE).
@@ -35,11 +35,11 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Results
 
 <p align="left">
-<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/dance.gif", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Module/blob/master/readme/dance.gif", width="720">
 </p>
 
 <p align="left">
-<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/shake.gif", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Module/blob/master/readme/shake.gif", width="720">
 </p>
 
 ## Contents
@@ -67,7 +67,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Training
 
 ### Network Architecture
-![Teaser?](https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/arch.png)
+![Teaser?](https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Module/blob/master/readme/arch.png)
 
 ### Training Steps 
 - Run `cd training; bash getData.sh` to obtain the COCO images in `dataset/COCO/images/`, keypoints annotations in `dataset/COCO/annotations/` and [COCO official toolbox](https://github.com/pdollar/coco) in `dataset/COCO/coco/`. 
