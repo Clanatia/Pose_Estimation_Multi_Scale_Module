@@ -1,0 +1,13 @@
+F0507 14:35:56.390044  6270 io.cpp:36] Check failed: fd != -1 (-1 vs. -1) File not found: pose_solver.prototxt
+*** Check failure stack trace: ***
+    @     0x7ff93ea505cd  google::LogMessage::Fail()
+    @     0x7ff93ea52433  google::LogMessage::SendToLog()
+    @     0x7ff93ea5015b  google::LogMessage::Flush()
+    @     0x7ff93ea52e1e  google::LogMessageFatal::~LogMessageFatal()
+    @     0x7ff93f2639d8  caffe::ReadProtoFromTextFile()
+    @     0x7ff93f273236  caffe::ReadSolverParamsFromTextFileOrDie()
+    @           0x40a8ba  train()
+    @           0x407590  main
+    @     0x7ff93d9c0830  __libc_start_main
+    @           0x407db9  _start
+    @              (nil)  (unknown)
