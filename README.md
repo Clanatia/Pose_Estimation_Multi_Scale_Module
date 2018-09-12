@@ -1,7 +1,7 @@
 # Edit Moudle #
  Multi Scale Mudle에 맞게 설정이 되어있는 코드입니다.
  <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch2.PNG", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/arch2.PNG", width="720">
 </p>
  
  7X7 Convol 네트워크를 3X3 3개 + Concat + Eltwise-Sum 으로 변경되어 있습니다. -Please Check C3 (setLayers.py 193Line) 
@@ -34,11 +34,11 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Results
 
 <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/dance.gif", width="720">
 </p>
 
 <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/shake.gif", width="720">
+<img src="https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/shake.gif", width="720">
 </p>
 
 ## Contents
@@ -66,7 +66,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Training
 
 ### Network Architecture
-![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
+![Teaser?](https://github.com/Clanatia/Pose_Estimation_Multi_Scale_Moudle/blob/master/readme/arch.png)
 
 ### Training Steps 
 - Run `cd training; bash getData.sh` to obtain the COCO images in `dataset/COCO/images/`, keypoints annotations in `dataset/COCO/annotations/` and [COCO official toolbox](https://github.com/pdollar/coco) in `dataset/COCO/coco/`. 
